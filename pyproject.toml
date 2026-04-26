@@ -24,3 +24,6 @@ only-include = ["server.py"]
 
 [project.scripts]
 meok-watermark-attest-mcp = "server:main"
+
+[tool.mcp]
+mcpName = "io.github.CSOAI-ORG/meok-watermark-attest-mcp"
