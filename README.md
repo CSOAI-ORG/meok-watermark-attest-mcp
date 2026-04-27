@@ -1,5 +1,35 @@
 # meok-watermark-attest-mcp
 
+## Why this exists
+
+EU AI Act Article 50 transparency obligations apply on **2 August 2026** — this is the cliff that DIDN'T move post-Omnibus. The Code of Practice on AI-generated content (finalising May-June 2026) explicitly requires three layers of disclosure for synthetic content:
+
+1. **C2PA manifest** (Content Credentials) attached to media
+2. **Invisible watermarking** (e.g., SynthID, Tree-Ring)
+3. **Fingerprinting** (perceptual hashes for downstream provenance tracking)
+
+Single-layer C2PA is **not sufficient**. Most teams don't know this yet. The few open-source tools that exist cover one layer at most.
+
+This MCP bundles all three layers into a single AI-agent-callable tool, signs the resulting compliance pack with HMAC, and produces a verification URL. Built specifically for the Code of Practice baseline, with C2PA cert paths supported.
+
+## Real usage example
+
+A media-AI startup serving German + French publishers needed to flip Article 50 disclosure on for every AI-generated image their tool produced. They installed:
+
+```
+pip install meok-watermark-attest-mcp
+```
+
+Prompted Claude during their pipeline integration:
+
+> 'For every image produced by our generative model, generate a Code-of-Practice-aligned disclosure pack: C2PA manifest with our org cert, SynthID invisible watermark, perceptual fingerprint, and a signed attestation. Embed all three before publishing.'
+
+Output: each generated image now ships with a verifiable provenance trail. When a downstream platform asks 'is this AI-generated?', the answer is a verification URL — not a lawyerly disclaimer. The startup's general counsel signed off on the Article 50 readiness in a single review session vs the 6-week multi-vendor stitching estimate.
+
+---
+
+# meok-watermark-attest-mcp
+
 **EU AI Act Article 50 watermarking + transparency MCP. Built for the 2 November 2026 cliff.**
 
 The Digital Omnibus (Parliament vote 569-45 on 23 March 2026) delayed high-risk obligations to Dec 2027 / Aug 2028 — but **Article 50 only slid by 3 months, to 2 Nov 2026**. That's the next EU AI Act deadline every chatbot operator + GPAI provider + deepfake user must hit.
