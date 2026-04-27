@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "meok-watermark-attest-mcp"
-version = "1.0.1"
+version = "1.0.2"
 description = "EU AI Act Article 50 watermarking + transparency compliance MCP. Built for the 2 November 2026 cliff (the new nearest EU AI Act deadline after the Digital Omnibus pushed high-risk to Dec 2027). Classify which Art 50 obligations apply (chatbot disclosure, GPAI synthetic-content marking per C2PA-2.0, deepfake disclosure, emotion/biometric transparency), generate compliant disclosure text per surface + language, audit content pipelines, emit HMAC-signed compliance attestations. By MEOK AI Labs."
 license = {file = "LICENSE"}
 readme = "README.md"
