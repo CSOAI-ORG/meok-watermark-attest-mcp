@@ -1,8 +1,10 @@
+[![PyPI Downloads](https://img.shields.io/pypi/dw/meok-watermark-attest-mcp?label=downloads%2Fweek&color=gold)](https://pypi.org/project/meok-watermark-attest-mcp/) [![PyPI Version](https://img.shields.io/pypi/v/meok-watermark-attest-mcp?color=blue)](https://pypi.org/project/meok-watermark-attest-mcp/) [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/CSOAI-ORG/meok-watermark-attest-mcp/blob/main/LICENSE)
+
 # meok-watermark-attest-mcp
 
 ## Why this exists
 
-EU AI Act Article 50 transparency obligations apply on **2 August 2026** — this is the cliff that DIDN'T move post-Omnibus. The Code of Practice on AI-generated content (finalising May-June 2026) explicitly requires three layers of disclosure for synthetic content:
+EU AI Act Article 50 transparency obligations apply on **2 November 2026** — this is the cliff that DIDN'T move post-Omnibus. The Code of Practice on AI-generated content (finalising May-June 2026) explicitly requires three layers of disclosure for synthetic content:
 
 1. **C2PA manifest** (Content Credentials) attached to media
 2. **Invisible watermarking** (e.g., SynthID, Tree-Ring)
@@ -91,4 +93,3 @@ MIT — MEOK AI Labs, 2026.
 - **Apify Store** (Pay-Per-Event): https://apify.com/knowing_yucca/meok-watermark-attest
 - **GitHub** (source): https://github.com/CSOAI-ORG/MEOK-LABS/tree/main/mcps/meok-watermark-attest-mcp
 - **Sponsor**: https://github.com/sponsors/CSOAI-ORG · [Pro £79/mo →](https://buy.stripe.com/eVq9AV4O87sudMF42k8k839)
-
