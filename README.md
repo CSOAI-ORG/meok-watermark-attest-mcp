@@ -1,3 +1,5 @@
+[![meok-watermark-attest-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/meok-watermark-attest-mcp/badges/card.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/meok-watermark-attest-mcp)
+
 [![PyPI Downloads](https://img.shields.io/pypi/dw/meok-watermark-attest-mcp?label=downloads%2Fweek&color=gold)](https://pypi.org/project/meok-watermark-attest-mcp/) [![PyPI Version](https://img.shields.io/pypi/v/meok-watermark-attest-mcp?color=blue)](https://pypi.org/project/meok-watermark-attest-mcp/) [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/CSOAI-ORG/meok-watermark-attest-mcp/blob/main/LICENSE)
 
 # meok-watermark-attest-mcp
