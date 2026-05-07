@@ -188,6 +188,10 @@ def get_deadline_status(api_key: str = "") -> str:
     When NOT to use:
         Do not use as a substitute for qualified legal counsel. This tool
         provides technical compliance guidance, not legal advice.
+
+    Args:
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -252,6 +256,20 @@ def classify_obligations(
     When NOT to use:
         Do not use as a substitute for qualified legal counsel. This tool
         provides technical compliance guidance, not legal advice.
+
+    Args:
+        is_chatbot (bool): The is chatbot to analyze or process.
+        is_gpai_provider (bool): The is gpai provider to analyze or process.
+        generates_synthetic_audio (bool): The generates synthetic audio to analyze or process.
+        generates_synthetic_image (bool): The generates synthetic image to analyze or process.
+        generates_synthetic_video (bool): The generates synthetic video to analyze or process.
+        generates_synthetic_text (bool): The generates synthetic text to analyze or process.
+        deploys_emotion_recognition (bool): The deploys emotion recognition to analyze or process.
+        deploys_biometric_categorisation (bool): The deploys biometric categorisation to analyze or process.
+        generates_deepfakes (bool): The generates deepfakes to analyze or process.
+        publishes_ai_text_public_interest (bool): The publishes ai text public interest to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -328,6 +346,13 @@ def generate_disclosure_text(
     When NOT to use:
         Do not use as a substitute for qualified legal counsel. This tool
         provides technical compliance guidance, not legal advice.
+
+    Args:
+        obligation_key (str): The obligation key to analyze or process.
+        surface_type (str): The surface type to analyze or process.
+        language (str): The language to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -428,6 +453,13 @@ def audit_content_pipeline(
     When NOT to use:
         Do not use as a substitute for qualified legal counsel. This tool
         provides technical compliance guidance, not legal advice.
+
+    Args:
+        tenant_id (str): The tenant id to analyze or process.
+        sample_text (str): The sample text to analyze or process.
+        pipeline_steps_csv (str): The pipeline steps csv to analyze or process.
+        api_key (str): The api key to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
@@ -542,6 +574,15 @@ def sign_watermark_attestation(
     When NOT to use:
         Do not use as a substitute for qualified legal counsel. This tool
         provides technical compliance guidance, not legal advice.
+
+    Args:
+        entity_name (str): The entity name to analyze or process.
+        audited_obligations_csv (str): The audited obligations csv to analyze or process.
+        pipeline_compliance_score (float): The pipeline compliance score to analyze or process.
+        findings_csv (str): The findings csv to analyze or process.
+        api_key (str): The api key to analyze or process.
+        email (str): The email to analyze or process.
+
     Behavioral Transparency:
         - Side Effects: This tool is read-only and produces no side effects. It does not modify
           any external state, databases, or files. All output is computed in-memory and returned
