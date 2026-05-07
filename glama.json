@@ -1,10 +1,4 @@
 {
   "$schema": "https://glama.ai/mcp/schemas/server.json",
-  "name": "meok-watermark-attest",
-  "description": "EU AI Act Article 50 watermarking compliance — by MEOK AI Labs (https://meok.ai). Ships with HMAC-signed compliance attestations.",
-  "homepage": "https://meok.ai",
-  "repository": "https://github.com/CSOAI-ORG/meok-watermark-attest-mcp",
-  "license": "MIT",
-  "author": "MEOK AI Labs",
-  "tags": ["compliance", "eu-ai-act", "mcp", "governance", "signed-attestation", "meok-ai-labs"]
+  "maintainers": ["CSOAI-ORG"]
 }
