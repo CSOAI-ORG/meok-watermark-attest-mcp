@@ -1,41 +1,3 @@
-[![meok-watermark-attest-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/meok-watermark-attest-mcp/badges/score.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/meok-watermark-attest-mcp)
-[![MCP Registry](https://img.shields.io/badge/MCP_Registry-Published-green)](https://registry.modelcontextprotocol.io)
-[![PyPI](https://img.shields.io/pypi/v/meok-watermark-attest-mcp)](https://pypi.org/project/meok-watermark-attest-mcp/)
-
-[![meok-watermark-attest-mcp MCP server](https://glama.ai/mcp/servers/CSOAI-ORG/meok-watermark-attest-mcp/badges/card.svg)](https://glama.ai/mcp/servers/CSOAI-ORG/meok-watermark-attest-mcp)
-
-[![PyPI Downloads](https://img.shields.io/pypi/dw/meok-watermark-attest-mcp?label=downloads%2Fweek&color=gold)](https://pypi.org/project/meok-watermark-attest-mcp/) [![PyPI Version](https://img.shields.io/pypi/v/meok-watermark-attest-mcp?color=blue)](https://pypi.org/project/meok-watermark-attest-mcp/) [![License: MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/CSOAI-ORG/meok-watermark-attest-mcp/blob/main/LICENSE)
-
-# meok-watermark-attest-mcp
-
-## Why this exists
-
-EU AI Act Article 50 transparency obligations apply on **2 November 2026** — this is the cliff that DIDN'T move post-Omnibus. The Code of Practice on AI-generated content (finalising May-June 2026) explicitly requires three layers of disclosure for synthetic content:
-
-1. **C2PA manifest** (Content Credentials) attached to media
-2. **Invisible watermarking** (e.g., SynthID, Tree-Ring)
-3. **Fingerprinting** (perceptual hashes for downstream provenance tracking)
-
-Single-layer C2PA is **not sufficient**. Most teams don't know this yet. The few open-source tools that exist cover one layer at most.
-
-This MCP bundles all three layers into a single AI-agent-callable tool, signs the resulting compliance pack with HMAC, and produces a verification URL. Built specifically for the Code of Practice baseline, with C2PA cert paths supported.
-
-## Real usage example
-
-A media-AI startup serving German + French publishers needed to flip Article 50 disclosure on for every AI-generated image their tool produced. They installed:
-
-```
-pip install meok-watermark-attest-mcp
-```
-
-Prompted Claude during their pipeline integration:
-
-> 'For every image produced by our generative model, generate a Code-of-Practice-aligned disclosure pack: C2PA manifest with our org cert, SynthID invisible watermark, perceptual fingerprint, and a signed attestation. Embed all three before publishing.'
-
-Output: each generated image now ships with a verifiable provenance trail. When a downstream platform asks 'is this AI-generated?', the answer is a verification URL — not a lawyerly disclaimer. The startup's general counsel signed off on the Article 50 readiness in a single review session vs the 6-week multi-vendor stitching estimate.
-
----
-
 # meok-watermark-attest-mcp
 
 **EU AI Act Article 50 watermarking + transparency MCP. Built for the 2 November 2026 cliff.**
@@ -81,6 +43,12 @@ Use code **`MEOKEAT`** for 25% off the first 3 months.
 - Digital Omnibus position (Parliament vote 569-45-23 on 23 March 2026)
 - C2PA Content Credentials specification 2.0
 
+## Full Compliance Platform
+
+Article 50 is just one piece. **[councilof.ai](https://councilof.ai)** covers the full EU AI Act + DORA + NIS2 + CRA stack from £29/mo.
+
+→ **[Get started at councilof.ai](https://councilof.ai)**
+
 ## Related MEOK MCPs
 
 - [`meok-omnibus-tracker-mcp`](https://pypi.org/project/meok-omnibus-tracker-mcp/) — live Digital Omnibus status
@@ -89,14 +57,6 @@ Use code **`MEOKEAT`** for 25% off the first 3 months.
 
 ## License
 
-MIT — MEOK AI Labs, 2026.
+MIT — [MEOK AI Labs](https://meok.ai), 2026.
 
----
-
-## Distribution channels
-
-- **PyPI**: `pip install meok-watermark-attest-mcp`
-- **Apify Store** (Pay-Per-Event): https://apify.com/knowing_yucca/meok-watermark-attest
-- **GitHub** (source): https://github.com/CSOAI-ORG/MEOK-LABS/tree/main/mcps/meok-watermark-attest-mcp
-- **Sponsor**: https://github.com/sponsors/CSOAI-ORG · [Pro £79/mo →](https://buy.stripe.com/eVq9AV4O87sudMF42k8k839)
 <!-- mcp-name: io.github.CSOAI-ORG/meok-watermark-attest-mcp -->
