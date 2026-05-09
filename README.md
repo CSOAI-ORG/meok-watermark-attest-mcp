@@ -55,6 +55,8 @@ Article 50 is just one piece. **[councilof.ai](https://councilof.ai)** covers th
 - [`eu-ai-act-compliance-mcp`](https://pypi.org/project/eu-ai-act-compliance-mcp/) — full EU AI Act audit
 - [`meok-attestation-verify`](https://pypi.org/project/meok-attestation-verify/) — verify signed attestations
 
+> **If this tool helps your compliance workflow, please [star this repo](https://github.com/CSOAI-ORG/meok-watermark-attest-mcp/stargazers)** — it helps other teams find it.
+
 ## License
 
 MIT — [MEOK AI Labs](https://meok.ai), 2026.
