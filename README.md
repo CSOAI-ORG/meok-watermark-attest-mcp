@@ -1,64 +1,78 @@
-# meok-watermark-attest-mcp
+# Meok Watermark Attest MCP
 
-**EU AI Act Article 50 watermarking + transparency MCP. Built for the 2 November 2026 cliff.**
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/meok_watermark_attest_mcp/)
 
-The Digital Omnibus (Parliament vote 569-45 on 23 March 2026) delayed high-risk obligations to Dec 2027 / Aug 2028 — but **Article 50 only slid by 3 months, to 2 Nov 2026**. That's the next EU AI Act deadline every chatbot operator + GPAI provider + deepfake user must hit.
+> EU AI Act Article 50 watermarking compliance MCP — C2PA, content provenance, deepfake disclosure,...
 
-By [MEOK AI Labs](https://meok.ai).
+EU AI Act Article 50 watermarking compliance MCP — C2PA, content provenance, deepfake disclosure, AI-content labelling. Hits the November 2026 cliff. By MEOK AI Labs.
 
-## Who needs this
+---
 
-- **Chatbot operators** — Art 50(1) requires disclosure that user is interacting with AI
-- **GPAI providers** — Art 50(2) requires synthetic content (audio/image/video/text) be machine-readable as AI-generated
-- **Emotion-recognition / biometric-categorisation deployers** — Art 50(3) requires informing affected persons
-- **Deepfake generators** — Art 50(4) requires disclosure that content is artificial
-- **Publishers of AI-generated text on public-interest matters** — Art 50(4) text rule
-
-## Tools
-
-- `get_deadline_status` — live status + obligation matrix
-- `classify_obligations` — given system characteristics, return triggered Art 50 sub-articles
-- `generate_disclosure_text` — produce compliant copy per surface + 5 languages (en/de/fr/es/it)
-- `audit_content_pipeline` — scan sample output + named pipeline steps for compliance gaps
-- `sign_watermark_attestation` — Pro: HMAC-SHA256 signed attestation with public verify URL
-
-## Install
+## 🚀 Quick Start
 
 ```bash
-pip install meok-watermark-attest-mcp
+# Install via pip
+pip install meok_watermark_attest_mcp
+
+# Or install via Smithery
+npx -y @smithery/cli@latest install meok-watermark-attest-mcp --client claude
 ```
 
-## Tiers
+## ✨ Features
 
-- **Free** — 10 audits/day, full classifier + disclosure templates
-- **Pro £199/mo** — unlimited + signed attestations + monthly regression checks — [subscribe](https://buy.stripe.com/14A4gB3K4eUWgYR56o8k836)
-- **Enterprise £1,499/mo** — content-pipeline integration + custom templates per language/jurisdiction
-- **£499 one-off Article 50 Readiness Pack** — bespoke audit + signed attestation
+- AI content watermarking
+- Article 50 compliance
+- Detection & verification
+- Batch processing
+- API integration
 
-Use code **`MEOKEAT`** for 25% off the first 3 months.
+## 📖 Documentation
 
-## Sources
+- [Full Documentation](https://docs.meok.ai/meok-watermark-attest-mcp)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
 
-- EU AI Act Article 50 (Regulation (EU) 2024/1689)
-- Digital Omnibus position (Parliament vote 569-45-23 on 23 March 2026)
-- C2PA Content Credentials specification 2.0
+## 🛡️ Compliance
 
-## Full Compliance Platform
+This MCP server is built with **EU AI Act compliance** built-in:
 
-Article 50 is just one piece. **[councilof.ai](https://councilof.ai)** covers the full EU AI Act + DORA + NIS2 + CRA stack from £29/mo.
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
 
-→ **[Get started at councilof.ai](https://councilof.ai)**
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
 
-## Related MEOK MCPs
+## 🏢 Enterprise
 
-- [`meok-omnibus-tracker-mcp`](https://pypi.org/project/meok-omnibus-tracker-mcp/) — live Digital Omnibus status
-- [`eu-ai-act-compliance-mcp`](https://pypi.org/project/eu-ai-act-compliance-mcp/) — full EU AI Act audit
-- [`meok-attestation-verify`](https://pypi.org/project/meok-attestation-verify/) — verify signed attestations
+Need custom development, SLA guarantees, or white-label deployment?
 
-> **If this tool helps your compliance workflow, please [star this repo](https://github.com/CSOAI-ORG/meok-watermark-attest-mcp/stargazers)** — it helps other teams find it.
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
 
-## License
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
 
-MIT — [MEOK AI Labs](https://meok.ai), 2026.
+## 🤝 Part of the MEOK Ecosystem
 
-<!-- mcp-name: io.github.CSOAI-ORG/meok-watermark-attest-mcp -->
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
+
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
+
+## 📜 License
+
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
+
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
