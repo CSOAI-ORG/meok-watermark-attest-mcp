@@ -1,0 +1,48 @@
+# meok-watermark-attest-mcp
+# **EU AI Act Article 50 watermarking + transparency MCP. Built for the 2 November 2026 cliff.**
+
+## Install
+```bash
+pip install meok-watermark-attest-mcp
+```
+
+## Auth & Rate Limits
+- Free tier: 10 calls/day. No API key required.
+- Pro tier (£79/mo): unlimited + signed attestations.
+- Enterprise (£1,499/mo): white-label.
+
+## Tools
+
+### `get_deadline_status`
+Return live status of the 2 Aug 2026 Article 50 deadline + which Article
+
+### `classify_obligations`
+Given system characteri
+
+### `generate_disclosure_text`
+Generate compliant disclosure text for a specific Article 50 obligation.
+
+### `audit_content_pipeline`
+Audit an existing content-generation pipeline for Article 50 compliance.
+
+### `sign_watermark_attestation`
+Generate a HMAC-SHA256 signed attestation of Article 50 compliance for a
+
+### `c2pa_generate_manifest`
+Generate a draft C2PA Content Credentials manifest (JSON-LD) for an
+
+### `c2pa_validate_manifest`
+Validate a C2PA manifest (JSON-LD) against required fields per the C2PA
+
+### `perceptual_fingerprint_compute`
+Compute a perceptual fingerprint suitable for the EU AI Act Article 50
+
+### `synthid_check`
+Check whether a SynthID-class detector output indicates an AI-generated
+
+
+## Maintainer
+MEOK AI Labs · hello@meok.ai · https://meok.ai · MIT licensed
+
+## Pairs with
+Governance moat: pair this tool with any of MEOK's 38 governance MCPs (EU AI Act, DORA, NIS2, CRA, GDPR, ISO 42001, etc.) for full compliance coverage.

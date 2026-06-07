@@ -1,0 +1,39 @@
+name: meok-watermark-attest-mcp
+description: 'MCP server: meok-watermark-attest-mcp'
+version: 1.0.5
+author: MEOK AI Labs
+homepage: https://safetyof.ai
+repository: https://github.com/MEOK-AI-Labs/meok-watermark-attest-mcp
+license: MIT
+categories:
+- compliance
+- governance
+tools:
+- name: get_deadline_status
+  description: Return live status of the 2 Aug 2026 Article 50 deadline + which Article
+- name: classify_obligations
+  description: Given system characteristics, return the specific Article 50 obligations
+- name: generate_disclosure_text
+  description: Generate compliant disclosure text for a specific Article 50 obligation.
+- name: audit_content_pipeline
+  description: Audit an existing content-generation pipeline for Article 50 compliance.
+- name: sign_watermark_attestation
+  description: Generate a HMAC-SHA256 signed attestation of Article 50 compliance
+    for a
+- name: c2pa_generate_manifest
+  description: Generate a draft C2PA Content Credentials manifest (JSON-LD) for an
+- name: c2pa_validate_manifest
+  description: Validate a C2PA manifest (JSON-LD) against required fields per the
+    C2PA
+- name: perceptual_fingerprint_compute
+  description: Compute a perceptual fingerprint suitable for the EU AI Act Article
+    50
+- name: synthid_check
+  description: Check whether a SynthID-class detector output indicates an AI-generated
+build:
+  type: python
+  entrypoint: server.py
+  dependencies:
+  - mcp>=1.0.0
+runtime:
+  python: '>=3.10'

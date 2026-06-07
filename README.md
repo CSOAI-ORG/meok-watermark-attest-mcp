@@ -131,3 +131,28 @@ Free tier: 10 calls/day per MCP. Pro tier (£79/mo): unlimited + cryptographical
 
 <!-- BUY-LADDER:END -->
 
+
+
+## Configuration
+
+Add to your `claude_desktop_config.json` (Claude Desktop) or your MCP client config:
+
+```json
+{
+  "mcpServers": {
+    "meok-watermark-attest-mcp": {
+      "command": "uvx",
+      "args": ["meok-watermark-attest-mcp"]
+    }
+  }
+}
+```
+
+Or: `pip install meok-watermark-attest-mcp` then run the `meok-watermark-attest-mcp` command (stdio transport).
+
+## Examples
+
+Once configured, ask your assistant, for example:
+- "Use `get_deadline_status` to …"
+- "Use `classify_obligations` to …"
+- "Use `generate_disclosure_text` to …"

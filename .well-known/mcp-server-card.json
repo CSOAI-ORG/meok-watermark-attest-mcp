@@ -1,0 +1,40 @@
+{
+  "name": "meok-watermark-attest-mcp",
+  "title": "Meok Watermark Attest Mcp",
+  "description": "EU AI Act Article 50 watermarking + transparency compliance MCP. Built for the 2 November 2026 cliff (the new nearest EU AI Act deadline after the Digital Omnibus pushed high-risk to Dec 2027). Classify which Art 50 obligations apply (chatbot disclosure, GPAI synthetic-content marking per C2PA-2.0, deepfake disclosure, emotion/biometric transparency), generate compliant disclosure text per surface + language, audit content pipelines, emit HMAC-signed compliance attestations. By MEOK AI Labs.",
+  "version": "1.3.8",
+  "homepage": "https://meok.ai",
+  "license": "MIT",
+  "transport": {
+    "type": "stdio"
+  },
+  "tools": [
+    {
+      "name": "get_deadline_status"
+    },
+    {
+      "name": "classify_obligations"
+    },
+    {
+      "name": "generate_disclosure_text"
+    },
+    {
+      "name": "audit_content_pipeline"
+    },
+    {
+      "name": "sign_watermark_attestation"
+    },
+    {
+      "name": "c2pa_generate_manifest"
+    },
+    {
+      "name": "c2pa_validate_manifest"
+    },
+    {
+      "name": "perceptual_fingerprint_compute"
+    },
+    {
+      "name": "synthid_check"
+    }
+  ]
+}

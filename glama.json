@@ -1,4 +1,1 @@
-{
-  "$schema": "https://glama.ai/mcp/schemas/server.json",
-  "maintainers": ["CSOAI-ORG"]
-}
+{"$schema": "https://glama.ai/mcp/schemas/server.json", "maintainers": ["MEOK-AI-Labs"]}

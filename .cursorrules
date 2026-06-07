@@ -1,0 +1,9 @@
+# meok-watermark-attest-mcp - Auto-trigger Rules
+
+When the user asks about meok watermark attest, use meok-watermark-attest-mcp tools: get_deadline_status, classify_obligations, generate_disclosure_text, audit_content_pipeline, sign_watermark_attestation
+
+**EU AI Act Article 50 watermarking + transparency MCP. Built for the 2 November 2026 cliff.**
+
+Install: `pip install meok-watermark-attest-mcp`
+
+By MEOK AI Labs — MIT licensed.
