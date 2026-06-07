@@ -1,0 +1,27 @@
+{
+  "acpVersion": "0.1",
+  "agent": {
+    "name": "meok-watermark-attest-mcp",
+    "description": "AI content watermarking and C2PA attestation MCP server by MEOK AI Labs",
+    "version": "1.3.8",
+    "provider": "MEOK AI Labs",
+    "interfaces": [
+      {
+        "type": "mcp",
+        "transport": "stdio",
+        "package": "meok-watermark-attest-mcp"
+      }
+    ],
+    "capabilities": [
+      "get_deadline_status",
+      "classify_obligations",
+      "generate_disclosure_text",
+      "audit_content_pipeline",
+      "sign_watermark_attestation",
+      "c2pa_generate_manifest",
+      "c2pa_validate_manifest",
+      "perceptual_fingerprint_compute",
+      "synthid_check"
+    ]
+  }
+}
