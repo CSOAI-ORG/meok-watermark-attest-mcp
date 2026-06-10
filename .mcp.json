@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "meok-watermark-attest-mcp": {
+      "command": "uvx",
+      "args": [
+        "meok-watermark-attest-mcp"
+      ]
+    }
+  }
+}
