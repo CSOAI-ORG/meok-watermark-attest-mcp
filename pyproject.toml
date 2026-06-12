@@ -4,8 +4,8 @@ build-backend = "hatchling.build"
 
 [project]
 name = "meok-watermark-attest-mcp"
-version = "1.3.10"
-description = "EU AI Act Article 50 watermarking + transparency compliance MCP. Built for the 2 November 2026 cliff (the new nearest EU AI Act deadline after the Digital Omnibus pushed high-risk to Dec 2027). Classify which Art 50 obligations apply (chatbot disclosure, GPAI synthetic-content marking per C2PA-2.0, deepfake disclosure, emotion/biometric transparency), generate compliant disclosure text per surface + language, audit content pipelines, emit HMAC-signed compliance attestations. By MEOK AI Labs."
+version = "1.3.8"
+description = "EU AI Act Article 50 watermarking + transparency compliance MCP. Built for the 2 August 2026 cliff. Article 50 transparency obligations apply from 2 August 2026; pre-existing systems have until 2 December 2026. (The Digital Omnibus delayed high-risk Annex III to 2 Dec 2027 but did NOT touch Article 50.) Classify which Art 50 obligations apply (chatbot disclosure, GPAI synthetic-content marking per C2PA-2.0, deepfake disclosure, emotion/biometric transparency), generate compliant disclosure text per surface + language, audit content pipelines, emit HMAC-signed compliance attestations. By MEOK AI Labs."
 license = {file = "LICENSE"}
 readme = "README.md"
 requires-python = ">=3.10"
@@ -20,7 +20,7 @@ Repository = "https://github.com/CSOAI-ORG/meok-watermark-attest-mcp"
 
 [tool.hatch.build.targets.wheel]
 packages = ["."]
-only-include = ["auth_middleware.py", "server.py"]
+only-include = ["server.py"]
 
 [project.scripts]
 meok-watermark-attest-mcp = "server:main"

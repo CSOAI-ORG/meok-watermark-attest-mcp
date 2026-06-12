@@ -9,11 +9,11 @@
 [![PyPI](https://img.shields.io/pypi/v/meok-watermark-attest-mcp)](https://pypi.org/project/meok-watermark-attest-mcp/) [![Python](https://img.shields.io/pypi/pyversions/meok-watermark-attest-mcp)](https://pypi.org/project/meok-watermark-attest-mcp/)
 
 
-**EU AI Act Article 50 watermarking + transparency MCP. Built for the 2 November 2026 cliff.**
+**EU AI Act Article 50 watermarking + transparency MCP. Built for the 2 August 2026 cliff.**
 
 > EU AI Act Article 50 watermarking compliance MCP — C2PA, content provenance, deepfake disclosure,...
 
-EU AI Act Article 50 watermarking compliance MCP — C2PA, content provenance, deepfake disclosure, AI-content labelling. Hits the November 2026 cliff. By MEOK AI Labs.
+EU AI Act Article 50 watermarking compliance MCP — C2PA, content provenance, deepfake disclosure, AI-content labelling. Hits the August 2026 cliff (Article 50 transparency obligations apply from 2 Aug 2026; pre-existing systems have until 2 Dec 2026). The Digital Omnibus (EU Parliament 569-45, 23 Mar 2026) delayed high-risk Annex III to 2 Dec 2027 but did NOT touch Article 50. By MEOK AI Labs.
 
 ---
 
