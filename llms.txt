@@ -1,5 +1,5 @@
 # meok-watermark-attest-mcp
-# **EU AI Act Article 50 watermarking + transparency MCP. Built for the 2 November 2026 cliff.**
+# **EU AI Act Article 50 watermarking + transparency MCP. Built for the 2 August 2026 cliff.**
 
 ## Install
 ```bash

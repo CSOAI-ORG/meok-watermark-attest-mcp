@@ -1,0 +1,194 @@
+{
+  "name": "Meok Watermark Attest Mcp",
+  "version": "1.3.8",
+  "url": "https://mcp.meok.ai/meok-watermark-attest-mcp/a2a",
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "protocolVersion": "0.3.0",
+  "description": "EU AI Act Article 50 watermarking + transparency compliance MCP. Built for the 2 November 2026 cliff (the new nearest EU AI Act deadline after the Digital Omnibus pushed high-risk to Dec 2027). Classify which Art 50 obligations apply (chatbot disclosure, GPAI synthetic-content marking per C2PA-2.0, deepfake disclosure, emotion/biometric transparency), generate compliant disclosure text per surface + language, audit content pipelines, emit HMAC-signed compliance attestations. By MEOK AI Labs.",
+  "provider": {
+    "organization": "MEOK AI LABS",
+    "url": "https://meok.ai"
+  },
+  "defaultInputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "application/json",
+    "text/plain"
+  ],
+  "skills": [
+    {
+      "id": "get_deadline_status",
+      "name": "Get Deadline Status",
+      "description": "Get Deadline Status — a tool of the meok-watermark-attest-mcp MCP.",
+      "tags": [
+        "compliance",
+        "watermark",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "classify_obligations",
+      "name": "Classify Obligations",
+      "description": "Classify Obligations — a tool of the meok-watermark-attest-mcp MCP.",
+      "tags": [
+        "compliance",
+        "watermark",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "generate_disclosure_text",
+      "name": "Generate Disclosure Text",
+      "description": "Generate Disclosure Text — a tool of the meok-watermark-attest-mcp MCP.",
+      "tags": [
+        "compliance",
+        "watermark",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "audit_content_pipeline",
+      "name": "Audit Content Pipeline",
+      "description": "Audit Content Pipeline — a tool of the meok-watermark-attest-mcp MCP.",
+      "tags": [
+        "compliance",
+        "watermark",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "sign_watermark_attestation",
+      "name": "Sign Watermark Attestation",
+      "description": "Sign Watermark Attestation — a tool of the meok-watermark-attest-mcp MCP.",
+      "tags": [
+        "compliance",
+        "watermark",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "c2pa_generate_manifest",
+      "name": "C2Pa Generate Manifest",
+      "description": "C2Pa Generate Manifest — a tool of the meok-watermark-attest-mcp MCP.",
+      "tags": [
+        "compliance",
+        "watermark",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "c2pa_validate_manifest",
+      "name": "C2Pa Validate Manifest",
+      "description": "C2Pa Validate Manifest — a tool of the meok-watermark-attest-mcp MCP.",
+      "tags": [
+        "compliance",
+        "watermark",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "perceptual_fingerprint_compute",
+      "name": "Perceptual Fingerprint Compute",
+      "description": "Perceptual Fingerprint Compute — a tool of the meok-watermark-attest-mcp MCP.",
+      "tags": [
+        "compliance",
+        "watermark",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    },
+    {
+      "id": "synthid_check",
+      "name": "Synthid Check",
+      "description": "Synthid Check — a tool of the meok-watermark-attest-mcp MCP.",
+      "tags": [
+        "compliance",
+        "watermark",
+        "audit"
+      ],
+      "inputModes": [
+        "application/json",
+        "text/plain"
+      ],
+      "outputModes": [
+        "application/json",
+        "text/plain"
+      ]
+    }
+  ],
+  "documentationUrl": "https://meok.ai",
+  "x-meok": {
+    "mcp_name": "meok-watermark-attest-mcp",
+    "verifier": "https://proofof.ai/verify",
+    "governed_by": "CSOAI 52-article charter"
+  }
+}
