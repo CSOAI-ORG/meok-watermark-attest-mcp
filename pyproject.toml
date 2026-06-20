@@ -12,7 +12,7 @@ requires-python = ">=3.10"
 authors = [{name = "MEOK AI Labs", email = "nicholas@meok.ai"}]
 keywords = ["mcp", "eu-ai-act", "article-50", "watermarking", "deepfake-disclosure", "synthetic-content", "c2pa", "synthid", "transparency", "chatbot-disclosure", "compliance", "signed-attestation", "meok-ai-labs"]
 classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License", "Operating System :: OS Independent", "Topic :: Multimedia"]
-dependencies = ["mcp>=1.0.0"]
+dependencies = ["mcp>=1.28.0"]
 
 [project.urls]
 Homepage = "https://csoai.org"
